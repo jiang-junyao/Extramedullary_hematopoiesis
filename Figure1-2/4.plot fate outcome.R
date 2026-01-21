@@ -38,115 +38,6 @@ plot_epiblast_heatmap <- function(ratio,group1,sample_name){
   }
 }
 
-plot_resi <- function(ratio,group1,sample_name){
-  anno_row = as.data.frame(group1[,2])
-  rownames(anno_row) = rownames(group1)
-  colnames(anno_row) = 'fatebias'
-  heatmap_col = c('#F7FBFF','#DEEBF7','#C6DBEF','#9ECAE1','#6BAED6','#4292C6',
-                  '#2171B5','#08519C','#08306B')
-  fate_name = unique(group1$fate)
-  if (nrow(ratio)==1) {
-    print('only1')
-    ### heatmap
-    ratio[ratio==0] = -0.2
-    pheatmap(ratio,cluster_rows = F,
-             cluster_cols = F,show_rownames = F,
-             annotation_row = anno_row,border_color = NA,
-             color = colorRampPalette(heatmap_col)(50),
-             filename = paste0('E:\\wenqian polylox\\20250423 new fate bias\\fig_tissue_resi/',
-                               sample_name,'.pdf'),width = 10,height = 8)
-  }else{
-    row_gap = c()
-    for (i in 1:(length(fate_name)-1)) {
-      if (i==1) {
-        row_gap = c(row_gap,nrow(group1[group1$fate==fate_name[i],]))
-      }else{
-        row_gap = c(row_gap,nrow(group1[group1$fate==fate_name[i],])+row_gap[i-1])
-      }
-    }
-    ### heatmap
-    ratio[ratio==0] = -0.2
-    pheatmap(ratio,cluster_rows = F,
-             cluster_cols = F,show_rownames = F,
-             gaps_row = row_gap,annotation_row = anno_row,border_color = NA,
-             color = colorRampPalette(heatmap_col)(50),
-             filename = paste0('E:\\wenqian polylox\\20250423 new fate bias\\fig_tissue_resi/',
-                               sample_name,'.pdf'),width = 10,height = 8)
-  }
-}
-plot_prog_resi <- function(ratio,group1,sample_name){
-  anno_row = as.data.frame(group1[,2])
-  rownames(anno_row) = rownames(group1)
-  colnames(anno_row) = 'fatebias'
-  heatmap_col = c('#F7FBFF','#DEEBF7','#C6DBEF','#9ECAE1','#6BAED6','#4292C6',
-                  '#2171B5','#08519C','#08306B')
-  fate_name = unique(group1$fate)
-  if (nrow(ratio)==1) {
-    print('only1')
-    ### heatmap
-    ratio[ratio==0] = -0.2
-    pheatmap(ratio,cluster_rows = F,
-             cluster_cols = F,show_rownames = F,
-             border_color = NA,
-             color = colorRampPalette(heatmap_col)(50),
-             filename = paste0('E:\\wenqian polylox\\20250423 new fate bias\\fig_prog_resi/',
-                               sample_name,'.pdf'),width = 10,height = 8)
-  }else{
-    row_gap = c()
-    for (i in 1:(length(fate_name)-1)) {
-      if (i==1) {
-        row_gap = c(row_gap,nrow(group1[group1$fate==fate_name[i],]))
-      }else{
-        row_gap = c(row_gap,nrow(group1[group1$fate==fate_name[i],])+row_gap[i-1])
-      }
-    }
-    ### heatmap
-    ratio[ratio==0] = -0.2
-    pheatmap(ratio,cluster_rows = F,
-             cluster_cols = F,show_rownames = F,
-             border_color = NA,
-             color = colorRampPalette(heatmap_col)(50),
-             filename = paste0('E:\\wenqian polylox\\20250423 new fate bias\\fig_prog_resi/',
-                               sample_name,'.pdf'),width = 10,height = 8)
-  }
-}
-### plot all barcode
-dir_all = dir('E:\\wenqian polylox\\20250423 new fate bias\\data')
-#dir_all = dir_all[-grep('csv',dir_all)]
-for (i in dir_all) {
-  dir1 = paste0('E:\\wenqian polylox\\20250423 new fate bias\\data\\',i,'/')
-  group1 = read.csv(paste0(dir1,'group_df2.csv'),row.names = 1)
-  tissue_ratio = read.csv(paste0(dir1,'tissue_ratio.csv'),row.names = 1)
-
-
-  resi = group1[group1$hsc_type!='share',]
-  resi_ratio = tissue_ratio[rownames(resi),]
-
-  share = group1[group1$hsc_type=='share',]
-  share_ratio = tissue_ratio[rownames(share),]
-
-  plot_epiblast_heatmap(tissue_ratio,group1,sample_name=paste0(i,'_all_barcode'))
-  plot_epiblast_heatmap(resi_ratio,resi,sample_name=paste0(i,'_resi_barcode'))
-  plot_epiblast_heatmap(share_ratio,share,sample_name=paste0(i,'_share_barcode'))
-}
-
-
-### plot single tissue resi barcode
-dir_all = dir('E:\\wenqian polylox\\20250423 new fate bias\\data')
-for (i in dir_all) {
-  dir1 = paste0('E:\\wenqian polylox\\20250423 new fate bias\\data\\',i,'/')
-  group1 = read.csv(paste0(dir1,'group_df2.csv'),row.names = 1)
-  tissue_ratio = read.csv(paste0(dir1,'tissue_ratio.csv'),row.names = 1)
-
-  resi_type = unique(group1$hsc_type)
-  resi_type = resi_type[!resi_type %in% c('share','no_hsc')]
-  for (j in resi_type) {
-    resi = group1[group1$hsc_type==j,]
-    resi_ratio = tissue_ratio[rownames(resi),]
-    plot_resi(resi_ratio,resi,sample_name=paste0(i,'_',j))
-  }
-
-}
 ### plot all tissue progenitor resi/share
 for (i in c('N22','N18','N16_1','N16_2','N19')) {
   dir1 = paste0('E:\\wenqian polylox\\20250423 new fate bias\\data\\',i,'/')
@@ -234,8 +125,10 @@ pheatmap(plot_use[,c(1,4,2,3,5:ncol(plot_use))],cluster_rows = F,cluster_cols = 
          color = colorRampPalette(heatmap_col)(50),
          show_rownames = F,
          filename = 'E:\\wenqian polylox\\20250423 new fate bias\\fig_n16_resi_fate/n16_2.pdf')
-dir_all = dir('E:\\wenqian polylox\\20250423 new fate bias\\data')
-#dir_all = dir_all[-grep('csv',dir_all)]
+
+
+
+
 all_nor_pgen_mt = readRDS('E:\\wenqian polylox\\20250825_wenqian\\5.Data_Pgen_list\\qc2_4.rds')
 for (i in dir_all) {
   dir1 = paste0('E:\\wenqian polylox\\20250423 new fate bias\\data\\',i,'/')

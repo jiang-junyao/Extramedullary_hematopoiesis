@@ -1,0 +1,205 @@
+---
+title: "plot_niche_scRNA"
+author: "jjy"
+date: "2025-10-29"
+output: html_document
+---
+
+## R Markdown
+
+```{r}
+library(Seurat)
+celltype_colors <- c(
+    "Chil1-Gr"      = "#C1666B",  # muted brick red — granulocyte-like
+    "EC-sinusoidal" = "#5FA8D3",  # soft sky blue — endothelial
+    "B"             = "#7E9E6A",  # olive green — B cells
+    "Clec4d-Gr"     = "#D9896C",  # terracotta — myeloid
+    "Lepr-MSC"      = "#A3A380",  # beige green — stromal
+    "Cd48-Gr"       = "#E3A587",  # light coral — granulocyte-like
+    "Ery"           = "#E25E3E",  # vermilion — erythroid
+    "EC-arterial"   = "#3A7CA5",  # deep blue — arterial endothelial
+    "T"             = "#C0B9DD",  # lavender — T cells
+    "Lama2-Mes"     = "#9C9F84",  # grayish khaki — mesenchymal
+    "OLC"           = "#6B5B95",  # desaturated violet — oligodendrocyte-like
+    "Pericyte"      = "#567568",  # cool dark green-gray — mural
+    "Epi"           = "#F1C27D",  # warm pale sand — epithelial
+    "HSC"           = "#8B5E83"   # deep mauve — hematopoietic stem cell
+)
+
+
+
+
+seo <- readRDS("~/wenqian_sp/20251016 scRNA/junyao_processed_v4.rds")
+seo = subset(seo,organ!='Negative')
+seo$celltype_general = seo$cluster
+processed_spleen <- readRDS("~/wenqian_sp/processed_spleen.rds")
+seo$celltype_general = as.character(seo$cluster)
+seo$celltype_general[seo$celltype_general %in% c('Ery1','Ery2','Ery3')]='Ery'
+#seo$celltype_general[seo$celltype_general %in% c('Cd48-Gr','Chil1-Gr','Clec4d-Gr')]='Gr'
+seo$celltype_general = gsub('-SP','',seo$celltype_general)
+seo$celltype_general = gsub('-BM','',seo$celltype_general)
+hsc = readRDS("~/wenqian_smartseq/p_nop_hashtag.rds")
+```
+
+```{r}
+
+
+seo$group = paste0(seo$organ,'-',seo$condition)
+
+
+seo$sp = NA
+seo@meta.data[seo$group=='SP-Preg','sp'] = 'SP-Preg'
+UMAPPlot(seo,group.by='sp',pt.size=0.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(255/255,170/255,170/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_sppreg.pdf',
+       width = 10,height = 8)
+seo$bp = NA
+seo@meta.data[seo$group=='BM-Preg','bp'] = 'BM-Preg'
+UMAPPlot(seo,group.by='bp',pt.size=0.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(142/255,224/255,142/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_bmpreg.pdf',
+       width = 10,height = 8)
+
+seo$sc = NA
+seo@meta.data[seo$group=='SP-Ctrl','sc'] = 'SP-Ctrl'
+UMAPPlot(seo,group.by='sc',pt.size=0.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(239/255,153/255,81/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_spctrl.pdf',
+       width = 10,height = 8)
+seo$bc = NA
+seo@meta.data[seo$group=='BM-Ctrl','bc'] = 'BM-Ctrl'
+UMAPPlot(seo,group.by='bc',pt.size=0.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(91/255,166/255,218/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_bmctrl.pdf',
+       width = 10,height = 8)
+UMAPPlot(seo,group.by='celltype_general',pt.size=0.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values =celltypes_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_celltype.pdf',
+       width = 10,height = 8)
+
+
+seo$group = paste0(seo$organ,'-',seo$condition)
+celltype_sample_fraction(seo@meta.data,'group','celltype_general',col1 =celltype_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/niche_celltype_fraction.pdf',
+       width = 10,height = 8)
+seo$celltype_detail = paste0(seo$celltype_general,'-',seo$organ,'-',seo$condition)
+VlnPlot(seo,group.by='celltype_detail',features = 'Mki67',pt.size=0)+NoLegend()
+
+blood = subset(seo,celltype_general %in% c('T','B','Cd48-Gr','Chil1-Gr','Clec4d-Gr'))
+celltype_sample_fraction(blood@meta.data,'group','celltype_general',col1 =celltype_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/blood_celltype_fraction_with.pdf',
+       width = 10,height = 8)
+ec = subset(seo,celltype_general %in% c('EC-arterial', 'EC-sinusoidal'))
+celltype_sample_fraction(ec@meta.data,'group','celltype_general',col1 =celltype_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/ec_celltype_fraction.pdf',
+       width = 10,height = 8)
+other = subset(seo,celltype_general %in% c('Epi', 'Lama2-Mes','Lepr-MSC','OLC','Pericyte','Ery'))
+celltype_sample_fraction(other@meta.data,'group','celltype_general',col1 =celltype_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/other_celltype_fraction.pdf',
+       width = 10,height = 8)
+
+```
+
+```{r}
+
+ec = subset(seo,celltype_general %in% c('EC-arterial', 'EC-sinusoidal'))
+ec = RunUMAP(ec,dims = 1:10,min.dist = 0.8)
+celltype_sample_fraction(ec@meta.data,'group','cluster3',col1 =cluster_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/ec_celltype_fraction.pdf',
+       width = 10,height = 8)
+
+UMAPPlot(ec,group.by='cluster3',pt.size=0.4)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values =cluster_colors)
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/ec_celltype.pdf',
+       width = 10,height = 8)
+for (i in c('Arterial EC-1','Arterial EC-2','Einusoidal EC-1','Einusoidal EC-2')) {
+  for (j in c('Dll1','Kitl')) {
+    obj_use = subset(seo,cluster2==i)
+    VlnPlot(obj_use,features = j,group.by='organ',pt.size = 0)
+    ggsave(paste0('/data/jiangjunyao/wenqian_sp/20251016 scRNA/niche_vln/',i,'-',j,'.pdf'),width = 10,height = 8)
+  }
+}
+ec$celltype_group = paste0(ec$cluster2,'-',ec$organ)
+VlnPlot(ec,features = c('Dll1','Kitl'),group.by='celltype_group',pt.size = 0)
+ec$sp = NA
+ec@meta.data[ec$organ=='SP','sp'] = 'SP'
+ec$bm = NA
+ec@meta.data[ec$organ=='BM','bm'] = 'BM'
+ec_preg= subset(ec,condition=='Preg')
+UMAPPlot(ec,group.by='group',pt.size=0.8)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = c("#5BA6DA","#8EE08E","#EF9951",rgb(255/255,170/255,170/255)),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/ec_group.pdf',
+       width = 10,height = 8)
+
+
+
+UMAPPlot(ec,group.by='sp',pt.size=1.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(255/255,170/255,170/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/bc_sppreg.pdf',
+       width = 10,height = 8)
+
+
+UMAPPlot(ec,group.by='bp',pt.size=1.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(142/255,224/255,142/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/bc_bmpreg.pdf',
+       width = 10,height = 8)
+
+
+
+UMAPPlot(ec,group.by='sc',pt.size=1.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(239/255,153/255,81/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/bc_spctrl.pdf',
+       width = 10,height = 8)
+
+UMAPPlot(ec,group.by='bc',pt.size=1.2)+theme_void()+
+  theme(text = element_text(size=16))+
+  scale_color_manual(values = rgb(91/255,166/255,218/255),
+                     na.value = rgb(223/255,223/255,223/255))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/20251106_scrna_plot/bc_bmctrl.pdf',
+       width = 10,height = 8)
+```
+```{r}
+
+```
+
+```{r}
+UMAPPlot(seo,group.by='celltype_general2')+scale_color_manual(values=celltypes_colors)+
+  theme_void()+theme(text = element_text(size=16))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_celltype.pdf',width = 10,height = 8)
+
+UMAPPlot(seo,group.by='celltype_general2')+scale_color_manual(values=celltypes_colors)+
+    theme_void()+theme(text = element_text(size=16))+NoLegend()
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_celltype_nolenged.pdf',width = 10,height = 8)
+UMAPPlot(seo,group.by='organ')+scale_color_manual(values=jdb_palette('corona'))+
+    theme_void()+theme(text = element_text(size=16))+NoLegend()
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_organ_nolenged.pdf',width = 10,height = 8)
+UMAPPlot(seo,group.by='organ')+scale_color_manual(values=jdb_palette('corona'))+
+    theme_void()+theme(text = element_text(size=16))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_organ.pdf',width = 10,height = 8)
+UMAPPlot(seo,group.by='condition')+
+    theme_void()+theme(text = element_text(size=16))+NoLegend()
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_condition_nolenged.pdf',width = 10,height = 8)
+UMAPPlot(seo,group.by='condition')+
+    theme_void()+theme(text = element_text(size=16))
+ggsave('/data/jiangjunyao/wenqian_sp/20251016 scRNA/final_plot/niche_condition.pdf',width = 10,height = 8)
+```
+
+

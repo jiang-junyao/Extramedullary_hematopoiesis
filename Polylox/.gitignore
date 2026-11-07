@@ -1,0 +1,12 @@
+# Keep generated objects and figures out of the source repository.
+/prepared/
+/results/
+/logs/
+/qc/
+/work/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+Rplots.pdf
+.DS_Store

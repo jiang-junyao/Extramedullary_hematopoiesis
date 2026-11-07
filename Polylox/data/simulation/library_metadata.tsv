@@ -1,0 +1,24 @@
+mouse	sample	tissue	cell_type	replicate
+N16_1	Legs LSK-1	Legs	LSK	1
+N16_1	Legs LSK-2	Legs	LSK	2
+N16_1	Liver LSM	Liver	LSM	NA
+N16_1	Lung LSK	Lung	LSK	NA
+N16_1	Spine LSK-1	Spine	LSK	1
+N16_1	Spine LSK-2	Spine	LSK	2
+N16_1	Spleen LSK	Spleen	LSK	NA
+N16_2	Legs LSK-1	Legs	LSK	1
+N16_2	Legs LSK-2	Legs	LSK	2
+N16_2	Liver LSM-1	Liver	LSM	1
+N16_2	Liver LSM-2	Liver	LSM	2
+N16_2	Lung LSK	Lung	LSK	NA
+N16_2	Spine LSK-1	Spine	LSK	1
+N16_2	Spine LSK-2	Spine	LSK	2
+N16_2	Spleen LSK	Spleen	LSK	NA
+N22	Legs LSK-1	Legs	LSK	1
+N22	Legs LSK-2	Legs	LSK	2
+N22	Liver LSM-1	Liver	LSM	1
+N22	Liver LSM-2	Liver	LSM	2
+N22	Lung LSK	Lung	LSK	NA
+N22	Spine LSK-1	Spine	LSK	1
+N22	Spine LSK-2	Spine	LSK	2
+N22	Spleen LSK	Spleen	LSK	NA

@@ -1,0 +1,14 @@
+sample_id	reason
+SplCtl4	prior confirmed exclusion
+SplCtl5	prior confirmed exclusion
+SplCtl6	prior confirmed exclusion
+SplEPO4	prior confirmed exclusion
+SplEPO6	prior confirmed exclusion
+E125SP1	prior confirmed exclusion
+E125SP4	prior confirmed exclusion
+E125SP6	prior confirmed exclusion
+EMP9SP3	current user-requested exclusion
+EMP9SP4	current user-requested exclusion
+SplEPO3	fixed-seed random treatment-sample removal
+EMP9SP1	fixed-seed random treatment-sample removal
+BMEPO1	Previously excluded Epor/Cook-distance outlier sensitivity; final EPO BM set is BMEPO4/5/6

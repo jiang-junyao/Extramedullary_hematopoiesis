@@ -1,0 +1,1013 @@
+mouse	sample	tissue	cell_type	replicate
+N1	BM B-1	Bone marrow	B	1
+N1	BM B-2	Bone marrow	B	2
+N1	BM EryP-1	Bone marrow	EryP	1
+N1	BM EryP-2	Bone marrow	EryP	2
+N1	BM GMP-1	Bone marrow	GMP	1
+N1	BM GMP-2	Bone marrow	GMP	2
+N1	BM Gr-1	Bone marrow	Gr	1
+N1	BM Gr-2	Bone marrow	Gr	2
+N1	BM HSC-1	Bone marrow	HSC	1
+N1	BM HSC-2	Bone marrow	HSC	2
+N1	BM MEP-1	Bone marrow	MEP	1
+N1	BM MEP-2	Bone marrow	MEP	2
+N1	BM MPP	Bone marrow	MPP	
+N1	BM Mono-1	Bone marrow	Mono	1
+N1	BM Mono-2	Bone marrow	Mono	2
+N1	BM T-1	Bone marrow	T	1
+N1	BM T-2	Bone marrow	T	2
+N1	Spleen B-1	Spleen	B	1
+N1	Spleen B-2	Spleen	B	2
+N1	Spleen EryP-1	Spleen	EryP	1
+N1	Spleen EryP-2	Spleen	EryP	2
+N1	Spleen GMP	Spleen	GMP	
+N1	Spleen Gr-1	Spleen	Gr	1
+N1	Spleen Gr-2	Spleen	Gr	2
+N1	Spleen HSC	Spleen	HSC	
+N1	Spleen MEP-1	Spleen	MEP	1
+N1	Spleen MEP-2	Spleen	MEP	2
+N1	Spleen MPP	Spleen	MPP	
+N1	Spleen Mono-1	Spleen	Mono	1
+N1	Spleen Mono-2	Spleen	Mono	2
+N1	Spleen T-1	Spleen	T	1
+N1	Spleen T-2	Spleen	T	2
+N10H	Legs B-1	Legs	B	1
+N10H	Legs B-2	Legs	B	2
+N10H	Legs EryP-1	Legs	EryP	1
+N10H	Legs EryP-2	Legs	EryP	2
+N10H	Legs GMP-1	Legs	GMP	1
+N10H	Legs GMP-2	Legs	GMP	2
+N10H	Legs Gr-1	Legs	Gr	1
+N10H	Legs Gr-2	Legs	Gr	2
+N10H	Legs HSC-1	Legs	HSC	1
+N10H	Legs HSC-2	Legs	HSC	2
+N10H	Legs MEP-1	Legs	MEP	1
+N10H	Legs MEP-2	Legs	MEP	2
+N10H	Legs MPP-1	Legs	MPP	1
+N10H	Legs MPP-2	Legs	MPP	2
+N10H	Legs Mono-1	Legs	Mono	1
+N10H	Legs Mono-2	Legs	Mono	2
+N10H	Legs T-1	Legs	T	1
+N10H	Legs T-2	Legs	T	2
+N10H	Liver GMP	Liver	GMP	
+N10H	Liver HSC	Liver	HSC	
+N10H	Liver MEP	Liver	MEP	
+N10H	Liver MPP	Liver	MPP	
+N10H	Lung GMP	Lung	GMP	
+N10H	Lung HSC	Lung	HSC	
+N10H	Lung MEP	Lung	MEP	
+N10H	Lung MPP	Lung	MPP	
+N10H	Skull GMP	Skull	GMP	
+N10H	Skull HSC	Skull	HSC	
+N10H	Skull MEP	Skull	MEP	
+N10H	Skull MPP	Skull	MPP	
+N10H	Spine GMP-1	Spine	GMP	1
+N10H	Spine GMP-2	Spine	GMP	2
+N10H	Spine HSC-1	Spine	HSC	1
+N10H	Spine HSC-2	Spine	HSC	2
+N10H	Spine MEP-1	Spine	MEP	1
+N10H	Spine MEP-2	Spine	MEP	2
+N10H	Spine MPP-1	Spine	MPP	1
+N10H	Spine MPP-2	Spine	MPP	2
+N10H	Spleen B-1	Spleen	B	1
+N10H	Spleen B-2	Spleen	B	2
+N10H	Spleen EryP-1	Spleen	EryP	1
+N10H	Spleen EryP-2	Spleen	EryP	2
+N10H	Spleen GMP	Spleen	GMP	
+N10H	Spleen Gr	Spleen	Gr	
+N10H	Spleen HSC	Spleen	HSC	
+N10H	Spleen MEP	Spleen	MEP	
+N10H	Spleen MPP	Spleen	MPP	
+N10H	Spleen Mono	Spleen	Mono	
+N10H	Spleen T-1	Spleen	T	1
+N10H	Spleen T-2	Spleen	T	2
+N10S	Legs B-1	Legs	B	1
+N10S	Legs B-2	Legs	B	2
+N10S	Legs EryP-1	Legs	EryP	1
+N10S	Legs EryP-2	Legs	EryP	2
+N10S	Legs GMP-1	Legs	GMP	1
+N10S	Legs GMP-2	Legs	GMP	2
+N10S	Legs Gr-1	Legs	Gr	1
+N10S	Legs Gr-2	Legs	Gr	2
+N10S	Legs HSC-1	Legs	HSC	1
+N10S	Legs HSC-2	Legs	HSC	2
+N10S	Legs MEP-1	Legs	MEP	1
+N10S	Legs MEP-2	Legs	MEP	2
+N10S	Legs MPP-1	Legs	MPP	1
+N10S	Legs MPP-2	Legs	MPP	2
+N10S	Legs Mono-1	Legs	Mono	1
+N10S	Legs Mono-2	Legs	Mono	2
+N10S	Legs T-1	Legs	T	1
+N10S	Legs T-2	Legs	T	2
+N10S	Liver GMP	Liver	GMP	
+N10S	Liver HSC	Liver	HSC	
+N10S	Liver MEP	Liver	MEP	
+N10S	Liver MPP	Liver	MPP	
+N10S	Lung GMP	Lung	GMP	
+N10S	Lung HSC	Lung	HSC	
+N10S	Lung MEP	Lung	MEP	
+N10S	Lung MPP	Lung	MPP	
+N10S	Skull GMP	Skull	GMP	
+N10S	Skull HSC	Skull	HSC	
+N10S	Skull MEP	Skull	MEP	
+N10S	Skull MPP	Skull	MPP	
+N10S	Spine GMP-1	Spine	GMP	1
+N10S	Spine GMP-2	Spine	GMP	2
+N10S	Spine HSC-1	Spine	HSC	1
+N10S	Spine HSC-2	Spine	HSC	2
+N10S	Spine MEP-1	Spine	MEP	1
+N10S	Spine MEP-2	Spine	MEP	2
+N10S	Spine MPP-1	Spine	MPP	1
+N10S	Spine MPP-2	Spine	MPP	2
+N10S	Spleen B-1	Spleen	B	1
+N10S	Spleen B-2	Spleen	B	2
+N10S	Spleen EryP-1	Spleen	EryP	1
+N10S	Spleen EryP-2	Spleen	EryP	2
+N10S	Spleen GMP	Spleen	GMP	
+N10S	Spleen Gr	Spleen	Gr	
+N10S	Spleen HSC	Spleen	HSC	
+N10S	Spleen MEP	Spleen	MEP	
+N10S	Spleen MPP	Spleen	MPP	
+N10S	Spleen Mono	Spleen	Mono	
+N10S	Spleen T-1	Spleen	T	1
+N10S	Spleen T-2	Spleen	T	2
+N12	Legs B-1	Legs	B	1
+N12	Legs B-2	Legs	B	2
+N12	Legs EryP-1	Legs	EryP	1
+N12	Legs EryP-2	Legs	EryP	2
+N12	Legs GMP	Legs	GMP	
+N12	Legs Gr-1	Legs	Gr	1
+N12	Legs Gr-2	Legs	Gr	2
+N12	Legs HSC	Legs	HSC	
+N12	Legs MEP	Legs	MEP	
+N12	Legs MPP	Legs	MPP	
+N12	Legs Mono-1	Legs	Mono	1
+N12	Legs Mono-2	Legs	Mono	2
+N12	Legs T-1	Legs	T	1
+N12	Legs T-2	Legs	T	2
+N12	Liver GMP	Liver	GMP	
+N12	Liver HSC	Liver	HSC	
+N12	Liver MEP	Liver	MEP	
+N12	Liver MPP	Liver	MPP	
+N12	Lung GMP	Lung	GMP	
+N12	Lung HSC	Lung	HSC	
+N12	Lung MEP	Lung	MEP	
+N12	Lung MPP	Lung	MPP	
+N12	Skull B	Skull	B	
+N12	Skull GMP	Skull	GMP	
+N12	Skull HSC	Skull	HSC	
+N12	Skull MEP	Skull	MEP	
+N12	Skull MPP	Skull	MPP	
+N12	Skull Mono	Skull	Mono	
+N12	Skull T	Skull	T	
+N12	Spine B-1	Spine	B	1
+N12	Spine B-2	Spine	B	2
+N12	Spine GMP-1	Spine	GMP	1
+N12	Spine GMP-2	Spine	GMP	2
+N12	Spine HSC-1	Spine	HSC	1
+N12	Spine HSC-2	Spine	HSC	2
+N12	Spine MEP-1	Spine	MEP	1
+N12	Spine MEP-2	Spine	MEP	2
+N12	Spine MPP-1	Spine	MPP	1
+N12	Spine MPP-2	Spine	MPP	2
+N12	Spine Mono	Spine	Mono	
+N12	Spine Neu-1	Spine	Neu	1
+N12	Spine Neu-2	Spine	Neu	2
+N12	Spine T	Spine	T	
+N12	Spleen B-1	Spleen	B	1
+N12	Spleen B-2	Spleen	B	2
+N12	Spleen EryP-1	Spleen	EryP	1
+N12	Spleen EryP-2	Spleen	EryP	2
+N12	Spleen GMP	Spleen	GMP	
+N12	Spleen Gr-1	Spleen	Gr	1
+N12	Spleen Gr-2	Spleen	Gr	2
+N12	Spleen HSC	Spleen	HSC	
+N12	Spleen MEP	Spleen	MEP	
+N12	Spleen MPP	Spleen	MPP	
+N12	Spleen Mono	Spleen	Mono	
+N12	Spleen T-1	Spleen	T	1
+N12	Spleen T-2	Spleen	T	2
+N13	Legs B-1	Legs	B	1
+N13	Legs B-2	Legs	B	2
+N13	Legs EryP-1	Legs	EryP	1
+N13	Legs EryP-2	Legs	EryP	2
+N13	Legs GMP-1	Legs	GMP	1
+N13	Legs GMP-2	Legs	GMP	2
+N13	Legs Gr-1	Legs	Gr	1
+N13	Legs Gr-2	Legs	Gr	2
+N13	Legs HSC-1	Legs	HSC	1
+N13	Legs HSC-2	Legs	HSC	2
+N13	Legs MEP-1	Legs	MEP	1
+N13	Legs MEP-2	Legs	MEP	2
+N13	Legs MPP-1	Legs	MPP	1
+N13	Legs MPP-2	Legs	MPP	2
+N13	Legs Mono-1	Legs	Mono	1
+N13	Legs Mono-2	Legs	Mono	2
+N13	Legs T-1	Legs	T	1
+N13	Legs T-2	Legs	T	2
+N13	Skull B	Skull	B	
+N13	Skull GMP	Skull	GMP	
+N13	Skull HSC	Skull	HSC	
+N13	Skull MEP	Skull	MEP	
+N13	Skull MPP	Skull	MPP	
+N13	Skull Mono	Skull	Mono	
+N13	Skull T	Skull	T	
+N13	Spine B-1	Spine	B	1
+N13	Spine B-2	Spine	B	2
+N13	Spine EryP-1	Spine	EryP	1
+N13	Spine EryP-2	Spine	EryP	2
+N13	Spine GMP-1	Spine	GMP	1
+N13	Spine GMP-2	Spine	GMP	2
+N13	Spine Gr-1	Spine	Gr	1
+N13	Spine Gr-2	Spine	Gr	2
+N13	Spine HSC-1	Spine	HSC	1
+N13	Spine HSC-2	Spine	HSC	2
+N13	Spine MEP-1	Spine	MEP	1
+N13	Spine MEP-2	Spine	MEP	2
+N13	Spine MPP-1	Spine	MPP	1
+N13	Spine MPP-2	Spine	MPP	2
+N13	Spine Mono-1	Spine	Mono	1
+N13	Spine Mono-2	Spine	Mono	2
+N13	Spine T-1	Spine	T	1
+N13	Spine T-2	Spine	T	2
+N13	Spleen B-1	Spleen	B	1
+N13	Spleen B-2	Spleen	B	2
+N13	Spleen EryP-1	Spleen	EryP	1
+N13	Spleen EryP-2	Spleen	EryP	2
+N13	Spleen GMP	Spleen	GMP	
+N13	Spleen Gr-1	Spleen	Gr	1
+N13	Spleen Gr-2	Spleen	Gr	2
+N13	Spleen HSC	Spleen	HSC	
+N13	Spleen MEP	Spleen	MEP	
+N13	Spleen MPP	Spleen	MPP	
+N13	Spleen Mono	Spleen	Mono	
+N13	Spleen T-1	Spleen	T	1
+N13	Spleen T-2	Spleen	T	2
+N16_1	Legs CLP-1	Legs	CLP	1
+N16_1	Legs CLP-2	Legs	CLP	2
+N16_1	Legs GMP-1	Legs	GMP	1
+N16_1	Legs GMP-2	Legs	GMP	2
+N16_1	Legs LSK-1	Legs	LSK	1
+N16_1	Legs LSK-2	Legs	LSK	2
+N16_1	Legs MEP-1	Legs	MEP	1
+N16_1	Legs MEP-2	Legs	MEP	2
+N16_1	Legs MkP-1	Legs	MkP	1
+N16_1	Legs MkP-2	Legs	MkP	2
+N16_1	Liver CLP	Liver	CLP	
+N16_1	Liver GMP	Liver	GMP	
+N16_1	Liver LSK	Liver	LSK	
+N16_1	Liver LSM	Liver	LSM	
+N16_1	Liver MEP	Liver	MEP	
+N16_1	Liver MkP	Liver	MkP	
+N16_1	Lung CLP	Lung	CLP	
+N16_1	Lung GMP	Lung	GMP	
+N16_1	Lung LSK	Lung	LSK	
+N16_1	Lung MEP	Lung	MEP	
+N16_1	Lung MkP	Lung	MkP	
+N16_1	Spine CLP	Spine	CLP	
+N16_1	Spine GMP-1	Spine	GMP	1
+N16_1	Spine GMP-2	Spine	GMP	2
+N16_1	Spine LSK-1	Spine	LSK	1
+N16_1	Spine LSK-2	Spine	LSK	2
+N16_1	Spine MEP-1	Spine	MEP	1
+N16_1	Spine MEP-2	Spine	MEP	2
+N16_1	Spine MkP-1	Spine	MkP	1
+N16_1	Spine MkP-2	Spine	MkP	2
+N16_1	Spleen CLP	Spleen	CLP	
+N16_1	Spleen GMP	Spleen	GMP	
+N16_1	Spleen LSK	Spleen	LSK	
+N16_1	Spleen MEP	Spleen	MEP	
+N16_1	Spleen MkP	Spleen	MkP	
+N16_2	Legs CLP-1	Legs	CLP	1
+N16_2	Legs CLP-2	Legs	CLP	2
+N16_2	Legs GMP-1	Legs	GMP	1
+N16_2	Legs GMP-2	Legs	GMP	2
+N16_2	Legs LSK-1	Legs	LSK	1
+N16_2	Legs LSK-2	Legs	LSK	2
+N16_2	Legs MEP-1	Legs	MEP	1
+N16_2	Legs MEP-2	Legs	MEP	2
+N16_2	Legs MkP-1	Legs	MkP	1
+N16_2	Legs MkP-2	Legs	MkP	2
+N16_2	Liver CLP	Liver	CLP	
+N16_2	Liver GMP	Liver	GMP	
+N16_2	Liver LSK	Liver	LSK	
+N16_2	Liver LSM-1	Liver	LSM	1
+N16_2	Liver LSM-2	Liver	LSM	2
+N16_2	Liver MEP	Liver	MEP	
+N16_2	Liver MkP	Liver	MkP	
+N16_2	Lung CLP	Lung	CLP	
+N16_2	Lung GMP	Lung	GMP	
+N16_2	Lung LSK	Lung	LSK	
+N16_2	Lung MEP	Lung	MEP	
+N16_2	Lung MkP	Lung	MkP	
+N16_2	Spine CLP	Spine	CLP	
+N16_2	Spine GMP-1	Spine	GMP	1
+N16_2	Spine GMP-2	Spine	GMP	2
+N16_2	Spine LSK-1	Spine	LSK	1
+N16_2	Spine LSK-2	Spine	LSK	2
+N16_2	Spine MEP-1	Spine	MEP	1
+N16_2	Spine MEP-2	Spine	MEP	2
+N16_2	Spine MkP-1	Spine	MkP	1
+N16_2	Spine MkP-2	Spine	MkP	2
+N16_2	Spleen CLP	Spleen	CLP	
+N16_2	Spleen GMP	Spleen	GMP	
+N16_2	Spleen LSK	Spleen	LSK	
+N16_2	Spleen MEP	Spleen	MEP	
+N16_2	Spleen MkP	Spleen	MkP	
+N18	Legs CLP-1	Legs	CLP	1
+N18	Legs CLP-2	Legs	CLP	2
+N18	Legs GMP-1	Legs	GMP	1
+N18	Legs GMP-2	Legs	GMP	2
+N18	Legs LSK-1	Legs	LSK	1
+N18	Legs LSK-2	Legs	LSK	2
+N18	Legs MEP-1	Legs	MEP	1
+N18	Legs MEP-2	Legs	MEP	2
+N18	Legs MkP-1	Legs	MkP	1
+N18	Legs MkP-2	Legs	MkP	2
+N18	Liver CLP	Liver	CLP	
+N18	Liver GMP	Liver	GMP	
+N18	Liver LSK	Liver	LSK	
+N18	Liver LSM-1	Liver	LSM	1
+N18	Liver LSM-2	Liver	LSM	2
+N18	Liver MEP	Liver	MEP	
+N18	Liver MkP	Liver	MkP	
+N18	Lung CLP	Lung	CLP	
+N18	Lung GMP	Lung	GMP	
+N18	Lung LSK	Lung	LSK	
+N18	Lung MEP	Lung	MEP	
+N18	Lung MkP	Lung	MkP	
+N18	Spine CLP-1	Spine	CLP	1
+N18	Spine CLP-2	Spine	CLP	2
+N18	Spine GMP-1	Spine	GMP	1
+N18	Spine GMP-2	Spine	GMP	2
+N18	Spine LSK-1	Spine	LSK	1
+N18	Spine LSK-2	Spine	LSK	2
+N18	Spine MEP-1	Spine	MEP	1
+N18	Spine MEP-2	Spine	MEP	2
+N18	Spine MkP-1	Spine	MkP	1
+N18	Spine MkP-2	Spine	MkP	2
+N18	Spleen CLP	Spleen	CLP	
+N18	Spleen GMP	Spleen	GMP	
+N18	Spleen LSK	Spleen	LSK	
+N18	Spleen MEP-1	Spleen	MEP	1
+N18	Spleen MEP-2	Spleen	MEP	2
+N18	Spleen MkP	Spleen	MkP	
+N19	Legs LSK-1	Legs	LSK	1
+N19	Legs LSK-2	Legs	LSK	2
+N19	Liver LSK	Liver	LSK	
+N19	Liver LSM-1	Liver	LSM	1
+N19	Liver LSM-2	Liver	LSM	2
+N19	Lung LSK	Lung	LSK	
+N19	Spine LSK-1	Spine	LSK	1
+N19	Spine LSK-2	Spine	LSK	2
+N19	Spleen LSK	Spleen	LSK	
+N2	Legs B-1	Legs	B	1
+N2	Legs B-2	Legs	B	2
+N2	Legs EryP-1	Legs	EryP	1
+N2	Legs EryP-2	Legs	EryP	2
+N2	Legs GMP-1	Legs	GMP	1
+N2	Legs GMP-2	Legs	GMP	2
+N2	Legs Gr-1	Legs	Gr	1
+N2	Legs Gr-2	Legs	Gr	2
+N2	Legs HSC-1	Legs	HSC	1
+N2	Legs HSC-2	Legs	HSC	2
+N2	Legs MEP-1	Legs	MEP	1
+N2	Legs MEP-2	Legs	MEP	2
+N2	Legs MPP-1	Legs	MPP	1
+N2	Legs MPP-2	Legs	MPP	2
+N2	Legs Mono-1	Legs	Mono	1
+N2	Legs Mono-2	Legs	Mono	2
+N2	Legs T-1	Legs	T	1
+N2	Legs T-2	Legs	T	2
+N2	Spine B-1	Spine	B	1
+N2	Spine B-2	Spine	B	2
+N2	Spine EryP-1	Spine	EryP	1
+N2	Spine EryP-2	Spine	EryP	2
+N2	Spine GMP-1	Spine	GMP	1
+N2	Spine GMP-2	Spine	GMP	2
+N2	Spine Gr-1	Spine	Gr	1
+N2	Spine Gr-2	Spine	Gr	2
+N2	Spine HSC-1	Spine	HSC	1
+N2	Spine HSC-2	Spine	HSC	2
+N2	Spine MEP-1	Spine	MEP	1
+N2	Spine MEP-2	Spine	MEP	2
+N2	Spine MPP-1	Spine	MPP	1
+N2	Spine MPP-2	Spine	MPP	2
+N2	Spine Mono-1	Spine	Mono	1
+N2	Spine Mono-2	Spine	Mono	2
+N2	Spine T-1	Spine	T	1
+N2	Spine T-2	Spine	T	2
+N2	Spleen B-1	Spleen	B	1
+N2	Spleen B-2	Spleen	B	2
+N2	Spleen EryP-1	Spleen	EryP	1
+N2	Spleen EryP-2	Spleen	EryP	2
+N2	Spleen GMP	Spleen	GMP	
+N2	Spleen Gr-1	Spleen	Gr	1
+N2	Spleen Gr-2	Spleen	Gr	2
+N2	Spleen HSC	Spleen	HSC	
+N2	Spleen MEP-1	Spleen	MEP	1
+N2	Spleen MEP-2	Spleen	MEP	2
+N2	Spleen MPP	Spleen	MPP	
+N2	Spleen Mono-1	Spleen	Mono	1
+N2	Spleen Mono-2	Spleen	Mono	2
+N2	Spleen T-1	Spleen	T	1
+N2	Spleen T-2	Spleen	T	2
+N22	Legs CLP-1	Legs	CLP	1
+N22	Legs CLP-2	Legs	CLP	2
+N22	Legs GMP-1	Legs	GMP	1
+N22	Legs GMP-2	Legs	GMP	2
+N22	Legs LSK-1	Legs	LSK	1
+N22	Legs LSK-2	Legs	LSK	2
+N22	Legs MEP-1	Legs	MEP	1
+N22	Legs MEP-2	Legs	MEP	2
+N22	Legs MkP-1	Legs	MkP	1
+N22	Legs MkP-2	Legs	MkP	2
+N22	Liver CLP	Liver	CLP	
+N22	Liver GMP	Liver	GMP	
+N22	Liver LSK	Liver	LSK	
+N22	Liver LSM-1	Liver	LSM	1
+N22	Liver LSM-2	Liver	LSM	2
+N22	Liver MEP	Liver	MEP	
+N22	Liver MkP	Liver	MkP	
+N22	Lung CLP	Lung	CLP	
+N22	Lung GMP	Lung	GMP	
+N22	Lung LSK	Lung	LSK	
+N22	Lung MEP	Lung	MEP	
+N22	Lung MkP	Lung	MkP	
+N22	Spine CLP-1	Spine	CLP	1
+N22	Spine CLP-2	Spine	CLP	2
+N22	Spine GMP-1	Spine	GMP	1
+N22	Spine GMP-2	Spine	GMP	2
+N22	Spine LSK-1	Spine	LSK	1
+N22	Spine LSK-2	Spine	LSK	2
+N22	Spine MEP-1	Spine	MEP	1
+N22	Spine MEP-2	Spine	MEP	2
+N22	Spine MkP-1	Spine	MkP	1
+N22	Spine MkP-2	Spine	MkP	2
+N22	Spleen CLP	Spleen	CLP	
+N22	Spleen GMP	Spleen	GMP	
+N22	Spleen LSK	Spleen	LSK	
+N22	Spleen MEP-1	Spleen	MEP	1
+N22	Spleen MEP-2	Spleen	MEP	2
+N22	Spleen MkP	Spleen	MkP	
+N26	Legs B-1	Legs	B	1
+N26	Legs B-2	Legs	B	2
+N26	Legs EryP-1	Legs	EryP	1
+N26	Legs EryP-2	Legs	EryP	2
+N26	Legs GMP-1	Legs	GMP	1
+N26	Legs GMP-2	Legs	GMP	2
+N26	Legs Gr-1	Legs	Gr	1
+N26	Legs Gr-2	Legs	Gr	2
+N26	Legs HSC-1	Legs	HSC	1
+N26	Legs HSC-2	Legs	HSC	2
+N26	Legs MEP-1	Legs	MEP	1
+N26	Legs MEP-2	Legs	MEP	2
+N26	Legs MPP-1	Legs	MPP	1
+N26	Legs MPP-2	Legs	MPP	2
+N26	Legs Mono-1	Legs	Mono	1
+N26	Legs Mono-2	Legs	Mono	2
+N26	Legs T-1	Legs	T	1
+N26	Legs T-2	Legs	T	2
+N26	Spine B-1	Spine	B	1
+N26	Spine B-2	Spine	B	2
+N26	Spine EryP-1	Spine	EryP	1
+N26	Spine EryP-2	Spine	EryP	2
+N26	Spine GMP-1	Spine	GMP	1
+N26	Spine GMP-2	Spine	GMP	2
+N26	Spine Gr-1	Spine	Gr	1
+N26	Spine Gr-2	Spine	Gr	2
+N26	Spine HSC-1	Spine	HSC	1
+N26	Spine HSC-2	Spine	HSC	2
+N26	Spine MEP-1	Spine	MEP	1
+N26	Spine MEP-2	Spine	MEP	2
+N26	Spine MPP-1	Spine	MPP	1
+N26	Spine MPP-2	Spine	MPP	2
+N26	Spine Mono-1	Spine	Mono	1
+N26	Spine Mono-2	Spine	Mono	2
+N26	Spine T-1	Spine	T	1
+N26	Spine T-2	Spine	T	2
+N26	Spleen B-1	Spleen	B	1
+N26	Spleen B-2	Spleen	B	2
+N26	Spleen EryP-1	Spleen	EryP	1
+N26	Spleen EryP-2	Spleen	EryP	2
+N26	Spleen GMP	Spleen	GMP	
+N26	Spleen Gr-1	Spleen	Gr	1
+N26	Spleen Gr-2	Spleen	Gr	2
+N26	Spleen HSC	Spleen	HSC	
+N26	Spleen MEP-1	Spleen	MEP	1
+N26	Spleen MEP-2	Spleen	MEP	2
+N26	Spleen MPP	Spleen	MPP	
+N26	Spleen Mono-1	Spleen	Mono	1
+N26	Spleen Mono-2	Spleen	Mono	2
+N26	Spleen T-1	Spleen	T	1
+N26	Spleen T-2	Spleen	T	2
+N30	Legs LSK-1	Legs	LSK	1
+N30	Legs LSK-2	Legs	LSK	2
+N30	Liver LSK	Liver	LSK	
+N30	Liver LSM-1	Liver	LSM	1
+N30	Liver LSM-2	Liver	LSM	2
+N30	Spine LSK-1	Spine	LSK	1
+N30	Spine LSK-2	Spine	LSK	2
+N30	Spleen LSK	Spleen	LSK	
+N31	Legs B-1	Legs	B	1
+N31	Legs B-2	Legs	B	2
+N31	Legs B-3	Legs	B	3
+N31	Legs EryP-1	Legs	EryP	1
+N31	Legs EryP-2	Legs	EryP	2
+N31	Legs EryP-3	Legs	EryP	3
+N31	Legs EryP-4	Legs	EryP	4
+N31	Legs EryP-5	Legs	EryP	5
+N31	Legs GMP-1	Legs	GMP	1
+N31	Legs GMP-2	Legs	GMP	2
+N31	Legs HSC-1	Legs	HSC	1
+N31	Legs HSC-2	Legs	HSC	2
+N31	Legs MEP-1	Legs	MEP	1
+N31	Legs MEP-2	Legs	MEP	2
+N31	Legs MPP-1	Legs	MPP	1
+N31	Legs MPP-2	Legs	MPP	2
+N31	Legs Mono-1	Legs	Mono	1
+N31	Legs Mono-2	Legs	Mono	2
+N31	Legs Mono-3	Legs	Mono	3
+N31	Legs Neu-1	Legs	Neu	1
+N31	Legs Neu-2	Legs	Neu	2
+N31	Legs Neu-3	Legs	Neu	3
+N31	Spine B-1	Spine	B	1
+N31	Spine B-2	Spine	B	2
+N31	Spine B-3	Spine	B	3
+N31	Spine EryP-1	Spine	EryP	1
+N31	Spine EryP-2	Spine	EryP	2
+N31	Spine EryP-3	Spine	EryP	3
+N31	Spine EryP-4	Spine	EryP	4
+N31	Spine EryP-5	Spine	EryP	5
+N31	Spine GMP-1	Spine	GMP	1
+N31	Spine GMP-2	Spine	GMP	2
+N31	Spine HSC-1	Spine	HSC	1
+N31	Spine HSC-2	Spine	HSC	2
+N31	Spine MEP-1	Spine	MEP	1
+N31	Spine MEP-2	Spine	MEP	2
+N31	Spine MPP-1	Spine	MPP	1
+N31	Spine MPP-2	Spine	MPP	2
+N31	Spine Mono-1	Spine	Mono	1
+N31	Spine Mono-2	Spine	Mono	2
+N31	Spine Mono-3	Spine	Mono	3
+N31	Spine Neu-1	Spine	Neu	1
+N31	Spine Neu-2	Spine	Neu	2
+N31	Spleen B-1	Spleen	B	1
+N31	Spleen B-2	Spleen	B	2
+N31	Spleen EryP-1	Spleen	EryP	1
+N31	Spleen EryP-2	Spleen	EryP	2
+N31	Spleen EryP-3	Spleen	EryP	3
+N31	Spleen EryP-4	Spleen	EryP	4
+N31	Spleen GMP	Spleen	GMP	
+N31	Spleen HSC	Spleen	HSC	
+N31	Spleen MEP-1	Spleen	MEP	1
+N31	Spleen MEP-2	Spleen	MEP	2
+N31	Spleen MPP	Spleen	MPP	
+N31	Spleen Mono-1	Spleen	Mono	1
+N31	Spleen Mono-2	Spleen	Mono	2
+N31	Spleen Neu-1	Spleen	Neu	1
+N31	Spleen Neu-2	Spleen	Neu	2
+N31	PB B-1	Unknown	PB B	1
+N31	PB B-2	Unknown	PB B	2
+N31	PB Mono	Unknown	PB Mono	
+N32	Legs B-1	Legs	B	1
+N32	Legs B-2	Legs	B	2
+N32	Legs B-3	Legs	B	3
+N32	Legs EryP-1	Legs	EryP	1
+N32	Legs EryP-2	Legs	EryP	2
+N32	Legs EryP-3	Legs	EryP	3
+N32	Legs GMP-1	Legs	GMP	1
+N32	Legs GMP-2	Legs	GMP	2
+N32	Legs HSC-1	Legs	HSC	1
+N32	Legs HSC-2	Legs	HSC	2
+N32	Legs MEP-1	Legs	MEP	1
+N32	Legs MEP-2	Legs	MEP	2
+N32	Legs MPP-1	Legs	MPP	1
+N32	Legs MPP-2	Legs	MPP	2
+N32	Legs Mono-1	Legs	Mono	1
+N32	Legs Mono-2	Legs	Mono	2
+N32	Legs Neu-1	Legs	Neu	1
+N32	Legs Neu-2	Legs	Neu	2
+N32	Legs Neu-3	Legs	Neu	3
+N32	Spine B-1	Spine	B	1
+N32	Spine B-2	Spine	B	2
+N32	Spine EryP-1	Spine	EryP	1
+N32	Spine EryP-2	Spine	EryP	2
+N32	Spine EryP-3	Spine	EryP	3
+N32	Spine GMP-1	Spine	GMP	1
+N32	Spine GMP-2	Spine	GMP	2
+N32	Spine HSC-1	Spine	HSC	1
+N32	Spine HSC-2	Spine	HSC	2
+N32	Spine MEP-1	Spine	MEP	1
+N32	Spine MEP-2	Spine	MEP	2
+N32	Spine MPP-1	Spine	MPP	1
+N32	Spine MPP-2	Spine	MPP	2
+N32	Spine Mono-1	Spine	Mono	1
+N32	Spine Mono-2	Spine	Mono	2
+N32	Spine Mono-3	Spine	Mono	3
+N32	Spine Neu-1	Spine	Neu	1
+N32	Spine Neu-2	Spine	Neu	2
+N32	Spine Neu-3	Spine	Neu	3
+N32	Spleen B-1	Spleen	B	1
+N32	Spleen B-2	Spleen	B	2
+N32	Spleen B-3	Spleen	B	3
+N32	Spleen EryP-1	Spleen	EryP	1
+N32	Spleen EryP-2	Spleen	EryP	2
+N32	Spleen EryP-3	Spleen	EryP	3
+N32	Spleen EryP-4	Spleen	EryP	4
+N32	Spleen GMP	Spleen	GMP	
+N32	Spleen HSC	Spleen	HSC	
+N32	Spleen MEP-1	Spleen	MEP	1
+N32	Spleen MEP-2	Spleen	MEP	2
+N32	Spleen MPP	Spleen	MPP	
+N32	Spleen Mono-1	Spleen	Mono	1
+N32	Spleen Mono-2	Spleen	Mono	2
+N32	Spleen Neu-1	Spleen	Neu	1
+N32	Spleen Neu-2	Spleen	Neu	2
+N32	PB B-1	Unknown	PB B	1
+N32	PB B-2	Unknown	PB B	2
+N32	PB Mono-1	Unknown	PB Mono	1
+N32	PB Mono-2	Unknown	PB Mono	2
+N32	PB Neu-1	Unknown	PB Neu	1
+N32	PB Neu-2	Unknown	PB Neu	2
+N34_1	Legs LSK-1	Legs	LSK	1
+N34_1	Legs LSK-2	Legs	LSK	2
+N34_1	Liver LSM	Liver	LSM	
+N34_1	Spine LSK-1	Spine	LSK	1
+N34_1	Spine LSK-2	Spine	LSK	2
+N34_1	Spleen LSK	Spleen	LSK	
+N34_2	Legs LSK-1	Legs	LSK	1
+N34_2	Legs LSK-2	Legs	LSK	2
+N34_2	Liver LSM-1	Liver	LSM	1
+N34_2	Liver LSM-2	Liver	LSM	2
+N34_2	Spine LSK-1	Spine	LSK	1
+N34_2	Spine LSK-2	Spine	LSK	2
+N34_2	Spleen LSK	Spleen	LSK	
+N35	Legs LSK-1	Legs	LSK	1
+N35	Legs LSK-2	Legs	LSK	2
+N35	Liver LSM	Liver	LSM	
+N35	Spleen LSK	Spleen	LSK	
+N36	Legs LSK-1	Legs	LSK	1
+N36	Legs LSK-2	Legs	LSK	2
+N36	Liver LSM-1	Liver	LSM	1
+N36	Liver LSM-2	Liver	LSM	2
+N36	Spine LSK-1	Spine	LSK	1
+N36	Spine LSK-2	Spine	LSK	2
+N37	Legs HSC-1	Legs	HSC	1
+N37	Legs HSC-2	Legs	HSC	2
+N37	Legs MPP-1	Legs	MPP	1
+N37	Legs MPP-2	Legs	MPP	2
+N37	Spine HSC-1	Spine	HSC	1
+N37	Spine HSC-2	Spine	HSC	2
+N37	Spine MPP-1	Spine	MPP	1
+N37	Spine MPP-2	Spine	MPP	2
+N37	Spleen HSC	Spleen	HSC	
+N37	Spleen MPP	Spleen	MPP	
+N37	PB HSC	Unknown	PB HSC	
+N37	PB MPP	Unknown	PB MPP	
+N38	Legs HSC-1	Legs	HSC	1
+N38	Legs HSC-2	Legs	HSC	2
+N38	Legs MPP-1	Legs	MPP	1
+N38	Legs MPP-2	Legs	MPP	2
+N38	Spine HSC-1	Spine	HSC	1
+N38	Spine HSC-2	Spine	HSC	2
+N38	Spine MPP-1	Spine	MPP	1
+N38	Spine MPP-2	Spine	MPP	2
+N38	Spleen HSC	Spleen	HSC	
+N38	Spleen MPP	Spleen	MPP	
+N38	PB HSC	Unknown	PB HSC	
+N38	PB MPP	Unknown	PB MPP	
+N39_1	Legs LSK-1	Legs	LSK	1
+N39_1	Legs LSK-2	Legs	LSK	2
+N39_1	Liver LSM	Liver	LSM	
+N39_1	Spine LSK-1	Spine	LSK	1
+N39_1	Spine LSK-2	Spine	LSK	2
+N39_1	Spleen LSK	Spleen	LSK	
+N39_2	Legs LSK-1	Legs	LSK	1
+N39_2	Legs LSK-2	Legs	LSK	2
+N39_2	Liver LSM	Liver	LSM	
+N39_2	Spine LSK-1	Spine	LSK	1
+N39_2	Spine LSK-2	Spine	LSK	2
+N39_2	Spleen LSK	Spleen	LSK	
+N39_3	Legs LSK-1	Legs	LSK	1
+N39_3	Legs LSK-2	Legs	LSK	2
+N39_3	Liver LSM	Liver	LSM	
+N39_3	Spine LSK-1	Spine	LSK	1
+N39_3	Spine LSK-2	Spine	LSK	2
+N39_3	Spleen LSK	Spleen	LSK	
+N40	Legs HSC-1	Legs	HSC	1
+N40	Legs HSC-2	Legs	HSC	2
+N40	Legs MPP-1	Legs	MPP	1
+N40	Legs MPP-2	Legs	MPP	2
+N40	Spine HSC-1	Spine	HSC	1
+N40	Spine HSC-2	Spine	HSC	2
+N40	Spine MPP-1	Spine	MPP	1
+N40	Spine MPP-2	Spine	MPP	2
+N40	Spleen HSC	Spleen	HSC	
+N40	Spleen MPP	Spleen	MPP	
+N40	PB HSC	Unknown	PB HSC	
+N40	PB MPP	Unknown	PB MPP	
+N41	Legs HSC-1	Legs	HSC	1
+N41	Legs HSC-2	Legs	HSC	2
+N41	Legs MPP-1	Legs	MPP	1
+N41	Legs MPP-2	Legs	MPP	2
+N41	Spine HSC-1	Spine	HSC	1
+N41	Spine HSC-2	Spine	HSC	2
+N41	Spine MPP-1	Spine	MPP	1
+N41	Spine MPP-2	Spine	MPP	2
+N41	Spleen HSC	Spleen	HSC	
+N41	Spleen MPP	Spleen	MPP	
+N41	PB HSC	Unknown	PB HSC	
+N41	PB MPP	Unknown	PB MPP	
+N42_1	Legs HSC-1	Legs	HSC	1
+N42_1	Legs HSC-2	Legs	HSC	2
+N42_1	Legs MPP-1	Legs	MPP	1
+N42_1	Legs MPP-2	Legs	MPP	2
+N42_1	Spine HSC-1	Spine	HSC	1
+N42_1	Spine HSC-2	Spine	HSC	2
+N42_1	Spine MPP-1	Spine	MPP	1
+N42_1	Spine MPP-2	Spine	MPP	2
+N42_1	Spleen HSC	Spleen	HSC	
+N42_1	Spleen MPP	Spleen	MPP	
+N42_1	PB HSC	Unknown	PB HSC	
+N42_1	PB MPP	Unknown	PB MPP	
+N42_2	Legs LSK-1	Legs	LSK	1
+N42_2	Legs LSK-2	Legs	LSK	2
+N42_2	Liver LSM	Liver	LSM	
+N42_2	Spine LSK-1	Spine	LSK	1
+N42_2	Spine LSK-2	Spine	LSK	2
+N42_2	Spleen LSK	Spleen	LSK	
+N42_3	Legs LSK-1	Legs	LSK	1
+N42_3	Legs LSK-2	Legs	LSK	2
+N42_3	Spine LSK-1	Spine	LSK	1
+N42_3	Spine LSK-2	Spine	LSK	2
+N42_3	Spleen LSK-1	Spleen	LSK	1
+N42_3	Spleen LSK-2	Spleen	LSK	2
+N42_3	PB LSK	Unknown	PB LSK	
+N44_1	Legs LSK-1	Legs	LSK	1
+N44_1	Legs LSK-2	Legs	LSK	2
+N44_1	Liver LSM	Liver	LSM	
+N44_1	Spine LSK-1	Spine	LSK	1
+N44_1	Spine LSK-2	Spine	LSK	2
+N44_1	Spleen LSK	Spleen	LSK	
+N44_2	Legs LSK-1	Legs	LSK	1
+N44_2	Legs LSK-2	Legs	LSK	2
+N44_2	Liver LSM	Liver	LSM	
+N44_2	Spine LSK-1	Spine	LSK	1
+N44_2	Spine LSK-2	Spine	LSK	2
+N44_2	Spleen LSK	Spleen	LSK	
+N44_3	Legs LSK-1	Legs	LSK	1
+N44_3	Legs LSK-2	Legs	LSK	2
+N44_3	Liver LSM	Liver	LSM	
+N44_3	Spine LSK-1	Spine	LSK	1
+N44_3	Spine LSK-2	Spine	LSK	2
+N44_3	Spleen LSK	Spleen	LSK	
+N46_1	Legs HSC-1	Legs	HSC	1
+N46_1	Legs HSC-2	Legs	HSC	2
+N46_1	Legs MPP-1	Legs	MPP	1
+N46_1	Legs MPP-2	Legs	MPP	2
+N46_1	Spine HSC-1	Spine	HSC	1
+N46_1	Spine HSC-2	Spine	HSC	2
+N46_1	Spine MPP-1	Spine	MPP	1
+N46_1	Spine MPP-2	Spine	MPP	2
+N46_1	Spleen HSC	Spleen	HSC	
+N46_1	Spleen MPP	Spleen	MPP	
+N46_1	PB MPP	Unknown	PB MPP	
+N46_2	Legs LSK-1	Legs	LSK	1
+N46_2	Legs LSK-2	Legs	LSK	2
+N46_2	Spine LSK-1	Spine	LSK	1
+N46_2	Spine LSK-2	Spine	LSK	2
+N46_2	Spleen LSK	Spleen	LSK	
+N46_2	PB LSK	Unknown	PB LSK	
+N46_3	Legs HSC-1	Legs	HSC	1
+N46_3	Legs HSC-2	Legs	HSC	2
+N46_3	Legs MPP-1	Legs	MPP	1
+N46_3	Legs MPP-2	Legs	MPP	2
+N46_3	Spine HSC-1	Spine	HSC	1
+N46_3	Spine HSC-2	Spine	HSC	2
+N46_3	Spine MPP-1	Spine	MPP	1
+N46_3	Spine MPP-2	Spine	MPP	2
+N46_3	Spleen HSC	Spleen	HSC	
+N46_3	Spleen MPP	Spleen	MPP	
+N46_4	Legs HSC-1	Legs	HSC	1
+N46_4	Legs HSC-2	Legs	HSC	2
+N46_4	Legs MPP-1	Legs	MPP	1
+N46_4	Legs MPP-2	Legs	MPP	2
+N46_4	Spine HSC-1	Spine	HSC	1
+N46_4	Spine HSC-2	Spine	HSC	2
+N46_4	Spine MPP-1	Spine	MPP	1
+N46_4	Spine MPP-2	Spine	MPP	2
+N46_4	Spleen HSC	Spleen	HSC	
+N46_4	Spleen MPP	Spleen	MPP	
+N55	Legs LSK-1	Legs	LSK	1
+N55	Legs LSK-2	Legs	LSK	2
+N55	Liver LSM	Liver	LSM	
+N55	Spine LSK-1	Spine	LSK	1
+N55	Spine LSK-2	Spine	LSK	2
+N55	Spleen LSK-1	Spleen	LSK	1
+N55	Spleen LSK-2	Spleen	LSK	2
+N55	PB LSK	Unknown	PB LSK	
+N58_1	Legs LSK-1	Legs	LSK	1
+N58_1	Legs LSK-2	Legs	LSK	2
+N58_1	Liver LSM-1	Liver	LSM	1
+N58_1	Liver LSM-2	Liver	LSM	2
+N58_1	Spine LSK-1	Spine	LSK	1
+N58_1	Spine LSK-2	Spine	LSK	2
+N58_1	Spleen LSK-1	Spleen	LSK	1
+N58_1	Spleen LSK-2	Spleen	LSK	2
+N58_2	Legs B-1	Legs	B	1
+N58_2	Legs B-2	Legs	B	2
+N58_2	Legs B-3	Legs	B	3
+N58_2	Legs EryP-1	Legs	EryP	1
+N58_2	Legs EryP-2	Legs	EryP	2
+N58_2	Legs EryP-3	Legs	EryP	3
+N58_2	Legs GMP-1	Legs	GMP	1
+N58_2	Legs GMP-2	Legs	GMP	2
+N58_2	Legs HSC-1	Legs	HSC	1
+N58_2	Legs HSC-2	Legs	HSC	2
+N58_2	Legs MEP-1	Legs	MEP	1
+N58_2	Legs MEP-2	Legs	MEP	2
+N58_2	Legs MPP-1	Legs	MPP	1
+N58_2	Legs MPP-2	Legs	MPP	2
+N58_2	Legs Mono-1	Legs	Mono	1
+N58_2	Legs Mono-2	Legs	Mono	2
+N58_2	Legs Neu-1	Legs	Neu	1
+N58_2	Legs Neu-2	Legs	Neu	2
+N58_2	Legs Neu-3	Legs	Neu	3
+N58_2	Spine B-1	Spine	B	1
+N58_2	Spine B-2	Spine	B	2
+N58_2	Spine B-3	Spine	B	3
+N58_2	Spine B-4	Spine	B	4
+N58_2	Spine EryP-1	Spine	EryP	1
+N58_2	Spine EryP-2	Spine	EryP	2
+N58_2	Spine EryP-3	Spine	EryP	3
+N58_2	Spine EryP-4	Spine	EryP	4
+N58_2	Spine GMP-1	Spine	GMP	1
+N58_2	Spine GMP-2	Spine	GMP	2
+N58_2	Spine HSC-1	Spine	HSC	1
+N58_2	Spine HSC-2	Spine	HSC	2
+N58_2	Spine MEP-1	Spine	MEP	1
+N58_2	Spine MEP-2	Spine	MEP	2
+N58_2	Spine MPP-1	Spine	MPP	1
+N58_2	Spine MPP-2	Spine	MPP	2
+N58_2	Spine Mono-1	Spine	Mono	1
+N58_2	Spine Mono-2	Spine	Mono	2
+N58_2	Spine Neu-1	Spine	Neu	1
+N58_2	Spine Neu-2	Spine	Neu	2
+N58_2	Spine Neu-3	Spine	Neu	3
+N58_2	Spine Neu-4	Spine	Neu	4
+N58_2	Spleen B-1	Spleen	B	1
+N58_2	Spleen B-2	Spleen	B	2
+N58_2	Spleen B-3	Spleen	B	3
+N58_2	Spleen EryP-1	Spleen	EryP	1
+N58_2	Spleen EryP-2	Spleen	EryP	2
+N58_2	Spleen EryP-3	Spleen	EryP	3
+N58_2	Spleen EryP-4	Spleen	EryP	4
+N58_2	Spleen GMP	Spleen	GMP	
+N58_2	Spleen HSC	Spleen	HSC	
+N58_2	Spleen MEP-1	Spleen	MEP	1
+N58_2	Spleen MEP-2	Spleen	MEP	2
+N58_2	Spleen MPP	Spleen	MPP	
+N58_2	Spleen Mono-1	Spleen	Mono	1
+N58_2	Spleen Mono-2	Spleen	Mono	2
+N58_2	Spleen Neu-1	Spleen	Neu	1
+N58_2	Spleen Neu-2	Spleen	Neu	2
+N6	Legs B-1	Legs	B	1
+N6	Legs B-2	Legs	B	2
+N6	Legs EryP-1	Legs	EryP	1
+N6	Legs EryP-2	Legs	EryP	2
+N6	Legs GMP-1	Legs	GMP	1
+N6	Legs GMP-2	Legs	GMP	2
+N6	Legs Gr-1	Legs	Gr	1
+N6	Legs Gr-2	Legs	Gr	2
+N6	Legs HSC-1	Legs	HSC	1
+N6	Legs HSC-2	Legs	HSC	2
+N6	Legs MEP-1	Legs	MEP	1
+N6	Legs MEP-2	Legs	MEP	2
+N6	Legs MPP-1	Legs	MPP	1
+N6	Legs MPP-2	Legs	MPP	2
+N6	Legs Mono-1	Legs	Mono	1
+N6	Legs Mono-2	Legs	Mono	2
+N6	Legs T-1	Legs	T	1
+N6	Legs T-2	Legs	T	2
+N6	Spine B-1	Spine	B	1
+N6	Spine B-2	Spine	B	2
+N6	Spine EryP-1	Spine	EryP	1
+N6	Spine EryP-2	Spine	EryP	2
+N6	Spine GMP-1	Spine	GMP	1
+N6	Spine GMP-2	Spine	GMP	2
+N6	Spine Gr-1	Spine	Gr	1
+N6	Spine Gr-2	Spine	Gr	2
+N6	Spine HSC-1	Spine	HSC	1
+N6	Spine HSC-2	Spine	HSC	2
+N6	Spine MEP-1	Spine	MEP	1
+N6	Spine MEP-2	Spine	MEP	2
+N6	Spine MPP-1	Spine	MPP	1
+N6	Spine MPP-2	Spine	MPP	2
+N6	Spine Mono-1	Spine	Mono	1
+N6	Spine Mono-2	Spine	Mono	2
+N6	Spine T-1	Spine	T	1
+N6	Spine T-2	Spine	T	2
+N6	Spleen B-1	Spleen	B	1
+N6	Spleen B-2	Spleen	B	2
+N6	Spleen EryP-1	Spleen	EryP	1
+N6	Spleen EryP-2	Spleen	EryP	2
+N6	Spleen GMP	Spleen	GMP	
+N6	Spleen Gr-1	Spleen	Gr	1
+N6	Spleen Gr-2	Spleen	Gr	2
+N6	Spleen HSC	Spleen	HSC	
+N6	Spleen MEP-1	Spleen	MEP	1
+N6	Spleen MEP-2	Spleen	MEP	2
+N6	Spleen MPP	Spleen	MPP	
+N6	Spleen Mono-1	Spleen	Mono	1
+N6	Spleen Mono-2	Spleen	Mono	2
+N6	Spleen T-1	Spleen	T	1
+N6	Spleen T-2	Spleen	T	2
+N7	Legs GMP-1	Legs	GMP	1
+N7	Legs GMP-2	Legs	GMP	2
+N7	Legs HSC-1	Legs	HSC	1
+N7	Legs HSC-2	Legs	HSC	2
+N7	Legs MEP-1	Legs	MEP	1
+N7	Legs MEP-2	Legs	MEP	2
+N7	Legs MPP-1	Legs	MPP	1
+N7	Legs MPP-2	Legs	MPP	2
+N7	Liver GMP	Liver	GMP	
+N7	Liver HSC	Liver	HSC	
+N7	Liver MEP	Liver	MEP	
+N7	Liver MPP	Liver	MPP	
+N7	Lung GMP	Lung	GMP	
+N7	Lung HSC	Lung	HSC	
+N7	Lung MEP	Lung	MEP	
+N7	Lung MPP	Lung	MPP	
+N7	Skull GMP	Skull	GMP	
+N7	Skull HSC	Skull	HSC	
+N7	Skull MEP	Skull	MEP	
+N7	Skull MPP	Skull	MPP	
+N7	Spine GMP-1	Spine	GMP	1
+N7	Spine GMP-2	Spine	GMP	2
+N7	Spine HSC-1	Spine	HSC	1
+N7	Spine HSC-2	Spine	HSC	2
+N7	Spine MEP-1	Spine	MEP	1
+N7	Spine MEP-2	Spine	MEP	2
+N7	Spine MPP-1	Spine	MPP	1
+N7	Spine MPP-2	Spine	MPP	2
+N7	Spleen GMP	Spleen	GMP	
+N7	Spleen HSC	Spleen	HSC	
+N7	Spleen MEP-1	Spleen	MEP	1
+N7	Spleen MEP-2	Spleen	MEP	2
+N7	Spleen MPP	Spleen	MPP	
+N9	Legs B-1	Legs	B	1
+N9	Legs B-2	Legs	B	2
+N9	Legs EryP-1	Legs	EryP	1
+N9	Legs EryP-2	Legs	EryP	2
+N9	Legs GMP-1	Legs	GMP	1
+N9	Legs GMP-2	Legs	GMP	2
+N9	Legs Gr-1	Legs	Gr	1
+N9	Legs Gr-2	Legs	Gr	2
+N9	Legs HSC-1	Legs	HSC	1
+N9	Legs HSC-2	Legs	HSC	2
+N9	Legs MEP-1	Legs	MEP	1
+N9	Legs MEP-2	Legs	MEP	2
+N9	Legs MPP-1	Legs	MPP	1
+N9	Legs MPP-2	Legs	MPP	2
+N9	Legs Mono-1	Legs	Mono	1
+N9	Legs Mono-2	Legs	Mono	2
+N9	Legs T-1	Legs	T	1
+N9	Legs T-2	Legs	T	2
+N9	Skull B	Skull	B	
+N9	Skull EryP	Skull	EryP	
+N9	Skull GMP	Skull	GMP	
+N9	Skull Gr	Skull	Gr	
+N9	Skull HSC	Skull	HSC	
+N9	Skull MEP	Skull	MEP	
+N9	Skull MPP	Skull	MPP	
+N9	Skull Mono	Skull	Mono	
+N9	Spine B-1	Spine	B	1
+N9	Spine B-2	Spine	B	2
+N9	Spine EryP-1	Spine	EryP	1
+N9	Spine EryP-2	Spine	EryP	2
+N9	Spine GMP-1	Spine	GMP	1
+N9	Spine GMP-2	Spine	GMP	2
+N9	Spine Gr-1	Spine	Gr	1
+N9	Spine Gr-2	Spine	Gr	2
+N9	Spine HSC-1	Spine	HSC	1
+N9	Spine HSC-2	Spine	HSC	2
+N9	Spine MEP-1	Spine	MEP	1
+N9	Spine MEP-2	Spine	MEP	2
+N9	Spine MPP-1	Spine	MPP	1
+N9	Spine MPP-2	Spine	MPP	2
+N9	Spine Mono-1	Spine	Mono	1
+N9	Spine Mono-2	Spine	Mono	2
+N9	Spine T	Spine	T	
+N9	Spleen B-1	Spleen	B	1
+N9	Spleen B-2	Spleen	B	2
+N9	Spleen EryP-1	Spleen	EryP	1
+N9	Spleen EryP-2	Spleen	EryP	2
+N9	Spleen GMP	Spleen	GMP	
+N9	Spleen Gr	Spleen	Gr	
+N9	Spleen HSC	Spleen	HSC	
+N9	Spleen MEP	Spleen	MEP	
+N9	Spleen MPP	Spleen	MPP	
+N9	Spleen Mono	Spleen	Mono	
+N9	Spleen T-1	Spleen	T	1
+N9	Spleen T-2	Spleen	T	2

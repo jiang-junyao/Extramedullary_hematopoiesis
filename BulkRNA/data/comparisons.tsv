@@ -1,0 +1,7 @@
+comparison	title	reference	numerator	design	remove_all_zero
+Pregnancy_SP_vs_BM	Paper + 0807 Pregnancy	BM	SP	~ cohort + group	TRUE
+EPO_SP_vs_BM	0804 EPO treatment	BM	SP	~ group	TRUE
+EMP9_SP_vs_BM	0807 Pregnancy + EMP9	BM	SP	~ group	FALSE
+EPO_vs_CTRL_SP	EPO vs saline SP HSC	CTRL	EPO	~ group	FALSE
+EMP9_vs_Pregnancy_SP	Pregnancy + EMP9 vs Pregnancy SP HSC	Pregnancy	Pregnancy_EMP9	~ group	FALSE
+Public_Pregnancy_SP_vs_BM	Public Pregnancy (4v4)	BM	SP	~ group	FALSE

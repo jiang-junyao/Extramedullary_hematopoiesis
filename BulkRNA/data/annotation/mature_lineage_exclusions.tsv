@@ -1,0 +1,37 @@
+gene	category	rationale
+Gypa	mature_erythrocyte	Terminal erythrocyte membrane marker
+Gypc	mature_erythrocyte	Terminal erythrocyte membrane marker
+Slc4a1	mature_erythrocyte	Terminal erythrocyte membrane transporter
+Rhag	mature_erythrocyte	Mature erythrocyte membrane blood-group component
+Rhd	mature_erythrocyte	Mature erythrocyte blood-group component
+Smim1	mature_erythrocyte	Mature erythrocyte Vel blood-group membrane protein
+Spta1	mature_erythrocyte	Erythrocyte membrane cytoskeleton component
+Sptb	mature_erythrocyte	Erythrocyte membrane cytoskeleton component
+Ank1	mature_erythrocyte	Erythrocyte membrane cytoskeleton component
+Epb41	mature_erythrocyte	Erythrocyte membrane cytoskeleton component
+Epb42	mature_erythrocyte	Erythrocyte membrane cytoskeleton component
+Kel	mature_erythrocyte	Mature erythrocyte blood-group protein
+Hba-a1	mature_erythrocyte	Hemoglobin transcript dominated by terminal erythroid cells
+Hba-a2	mature_erythrocyte	Hemoglobin transcript dominated by terminal erythroid cells
+Hbb-bs	mature_erythrocyte	Hemoglobin transcript dominated by terminal erythroid cells
+Hbb-bt	mature_erythrocyte	Hemoglobin transcript dominated by terminal erythroid cells
+Cd19	mature_B_cell	Canonical mature B-cell surface marker
+Ms4a1	mature_B_cell	Canonical mature B-cell surface marker
+Cd3d	mature_T_cell	T-cell receptor complex component
+Cd3e	mature_T_cell	T-cell receptor complex component
+Cd3g	mature_T_cell	T-cell receptor complex component
+Trac	mature_T_cell	T-cell receptor constant-chain transcript
+Nkg7	mature_NK_cell	Canonical cytotoxic lymphocyte marker
+Gzmb	mature_NK_cell	Cytotoxic effector transcript
+Prf1	mature_NK_cell	Cytotoxic effector transcript
+S100a8	mature_myeloid	Mature inflammatory myeloid marker
+S100a9	mature_myeloid	Mature inflammatory myeloid marker
+Elane	mature_granulocyte	Granulocyte effector transcript
+Mpo	mature_granulocyte	Granulocyte lineage effector transcript
+Ltf	mature_granulocyte	Mature granulocyte granule transcript
+Camp	mature_granulocyte	Mature granulocyte granule transcript
+Ngp	mature_granulocyte	Mature granulocyte granule transcript
+Pf4	mature_platelet_megakaryocyte	Platelet/terminal megakaryocyte marker
+Ppbp	mature_platelet_megakaryocyte	Platelet/terminal megakaryocyte marker
+Gp9	mature_platelet_megakaryocyte	Platelet membrane marker
+Itga2b	mature_platelet_megakaryocyte	Platelet/megakaryocyte surface marker

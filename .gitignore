@@ -1,0 +1,8 @@
+prepared/
+results/
+logs/
+.ipynb_checkpoints/
+__pycache__/
+.Rhistory
+.RData
+Rplots.pdf
